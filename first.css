@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(trance-the-pub-vijay-nagar-indore-night-clubs-c8g5mqmxew.avif);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    color: white;
+    font-size: 25px;
+    font-family: 'Jura', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.136);
+    border: 1px solid black;
+    border-radius: 2px;
+}
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+#count-no{
+    font-weight: bold;
+    
+}
+#increment-btn{
+    background: beige;
+}
+#save-btn {
+    background: rgb(255, 119, 0);
+}
+p{
+    font-weight: 800;
+}
